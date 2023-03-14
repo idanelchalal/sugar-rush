@@ -1,0 +1,29 @@
+button.outlined-button{
+    text-align: center;
+    background-color: rgba(240, 248, 255, 0);
+    border: 1px solid var(--tea-rose-red);
+    padding: 10px 30px;
+    color: var(--tea-rose-red);
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+}
+
+button.outlined-button:hover{
+    background-color: var(--tea-rose-red);
+    color: white;
+}
+
+
+@media (max-width: 480px){
+
+    button.outlined-button{
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) and (min-width: 481px) {
+    button.outlined-button{
+        width: 100%;
+    }
+}

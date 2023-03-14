@@ -1,0 +1,24 @@
+section.card-container{
+    padding: 10px;
+    justify-content:space-between;
+    display: flex;
+    overflow-x: hidden;
+    overflow-x:scroll;
+}
+
+
+@media (max-width: 768px) and (min-width: 481px) {
+    section.card-container{
+        flex-direction: column;
+        padding: 10px 25px;
+        row-gap: 10px;
+    }
+}
+
+@media (max-width: 480px){
+    section.card-container{
+        flex-direction: column;
+        row-gap: 15px;
+        padding: 10px 25px;
+    }
+}

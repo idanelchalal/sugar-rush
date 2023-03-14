@@ -1,0 +1,33 @@
+footer.footer-bar {
+    color: var(--silver-content);
+    display:flex;
+    justify-content: space-between;
+    padding: 10px;
+    font-variant:small-caps ;
+}
+
+.footer-left-side{
+
+}
+
+.footer-right-side{
+
+}
+
+@media (max-width: 768px) and (min-width: 481px){
+    footer.footer-bar{
+        flex-direction: column;
+        row-gap: 10px;
+        text-align: center;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 480px){
+    footer.footer-bar{
+        flex-direction: column;
+        row-gap: 10px;
+        text-align: center;
+        font-size: 24px;
+    }
+}

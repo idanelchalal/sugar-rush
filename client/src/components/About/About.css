@@ -1,0 +1,82 @@
+section.about{
+    display: flex;
+    width: 100%;
+}
+
+.about-right-col{
+    flex: 3;
+    padding: 4px;
+    background-image: url(../../images/about-pic.jpg);
+    opacity: 0.9;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.about-right-col:hover{
+    opacity: 1;
+}
+
+.about-left-col{
+    flex: 6;
+    padding: 4px;
+}
+
+section.about p.about-content{
+    color: var(--silver-content);
+    width: 90%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+section.about h1.about-title{
+    font-size: 42px;
+    margin: 0;
+    font-family: 'Merriweather', serif;
+    margin: 15px 0;
+}
+
+section.about h2.about-secondary-title {
+    margin: 0px 15px;
+    font-size: 26px;
+    margin: 0;
+    font-family: 'Merriweather', serif;
+}
+
+@media (max-width: 768px) and (min-width: 481px) {
+    section.about p.about-content{
+        font-size: 22px; 
+    }
+    section.about{
+        display: block;
+    }
+
+    .about-left-col{
+        padding: 10px 25px;
+    }
+
+    .about-right-col{
+        margin: auto;
+        margin-top: 30px;
+        width: 90%;
+        height: 300px;
+    }
+}
+
+@media (max-width: 480px){
+    section.about{
+        display: block;
+    }
+
+    .about-left-col{
+        margin: auto;
+    }
+    .about-right-col{
+        margin: auto;
+        margin-top: 20px;
+        width: 90%;
+        height: 300px;
+    }
+
+
+}

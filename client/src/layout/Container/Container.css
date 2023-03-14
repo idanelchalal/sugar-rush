@@ -1,0 +1,23 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  padding: 4px;
+  margin: auto;
+  width: 1020px;
+}
+
+
+@media (max-width: 768px) and (min-width: 481px) {
+  .container{
+    width: 700px;
+    row-gap: 15px !important;
+  }
+}
+
+@media (max-width: 480px){
+  .container{
+    row-gap: 10px !important;
+    width: 370px;
+  }
+}

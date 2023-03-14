@@ -1,0 +1,57 @@
+.rate-bar-object{
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    row-gap: 10px;
+    transition: 0.2s all;
+    -webkit-transition: 0.2s all;
+    -moz-transition: 0.2s all;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    border-radius: 5px;
+}
+
+.object-value{
+    font-size: 22px;
+    font-family: 'Merriweather', serif;
+}
+
+.object-value-describer{
+    color: var(--silver-content);
+    text-transform: uppercase;
+}
+
+
+.rate-bar-object:hover{
+    background-color: var(--silver-hover);
+}
+
+.rate-bar-object:active{
+    background-color: var(--lavender-blush);
+}
+
+@media (max-width: 768px) and (min-width: 481px) {
+
+    .rate-bar-object{
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 10px 25px;
+    }
+
+    .object-value{
+        font-size: 30px !important;
+    }
+    .object-value-describer{
+        font-size: 30px !important;
+    }
+}
+
+@media (max-width: 480px){
+    .object-value{
+        font-size: 35px !important;
+    }
+    .object-value-describer{
+        font-size: 35px !important;
+    }
+}

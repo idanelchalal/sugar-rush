@@ -1,0 +1,12 @@
+.latest-posts-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+@media screen and (min-width: 769px) and (max-width: 1025px) {
+      .latest-posts-container{
+        gap: 15px !important;
+      }
+
+}

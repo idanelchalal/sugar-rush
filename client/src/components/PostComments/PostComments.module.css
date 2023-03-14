@@ -1,0 +1,7 @@
+section.comments-container{
+    width: 90%;
+    overflow: hidden;
+    margin: auto;
+    background-color: var(--silver-content);
+}
+

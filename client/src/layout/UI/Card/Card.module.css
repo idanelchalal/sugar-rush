@@ -1,0 +1,48 @@
+.card{
+    padding: 15px;
+    width: 300px;
+}
+
+.card:hover{
+    background-color: var(--silver-hover);
+}
+
+.card-thumbnail img {
+    width: 300px;
+    height: 250px;
+    border-radius: 5px;
+}
+
+h1.card-title {
+    margin: 5px 10px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Merriweather', serif;
+}
+
+p.card-content {
+    font-size: 16px;
+    color: var(--silver-content);
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    -webkit-line-clamp: 7;
+    white-space: pre-wrap; 
+}
+
+@media (max-width: 768px) and (min-width: 481px) {
+    .card{
+        padding: 0 !important;
+        width: 100%;      
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px){
+    .card{
+        padding: 0 !important;
+        width: 100%;      
+        text-align: center;
+    }
+}

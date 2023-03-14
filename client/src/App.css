@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Serif+Text&family=Lato:ital,wght@1,100;1,300&family=Merriweather:wght@300&family=Montserrat:ital,wght@0,100;0,300;1,100&family=Poppins&family=Roboto&display=swap');
+/*
+font-family: 'Bebas Neue', cursive;
+font-family: 'DM Serif Text', serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Merriweather', serif;
+*/
+
+
+/* 320px — 480px: Mobile devices
+481px — 768px: iPads, Tablets
+769px — 1024px: Small screens, laptops
+1025px — 1200px: Desktops, large screens
+1201px and more —  Extra large screens, TV */
+
+/* 
+* {
+  background: #000 !important;
+  color: #0f0 !important;
+  outline: solid #f00 1px !important;
+} */
+
+:root{
+  --silver-hover: rgb(245, 245, 245);
+--lavender-blush: #f7edf0;
+--tea-rose-red: #f4cbc6;
+--melon: #f4afabff;
+--vanilla: rgb(255, 253, 234);
+--silver-content: rgb(142, 142, 142);
+}
+body{
+  padding: 0;
+  height: 100%;
+  box-sizing:content-box;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #ffffff00;
+  width: 10%;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #f4cbc68e;
+  border-radius: 10px;
+  width: 20%;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--tea-rose-red);
+}
+
+.error-text{
+  color: var(--melon)
+}
+
+/* 
+@media screen and (min-width: 769px) and (max-width: 1025px) {
+}
+  @media screen and (max-width: 768px) and (min-width: 481px) {
+
+}
+
+@media (max-width: 480px){
+
+}
+ */
